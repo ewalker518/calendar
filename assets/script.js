@@ -35,19 +35,18 @@ $(".saveBtn").on("click", function () {
 });
 
 // get items from local storage
-localStorage.getItem(".description")
-$("#8 .description").getItem(localStorage.text);
-$("#9 .description").getItem(localStorage.text);
-$("#10 .description").getItem(localStorage.text);
-$("#11 .description").getItem(localStorage.text);
-$("#12 .description").getItem(localStorage.text);
-$("#13 .description").getItem(localStorage.text);
-$("#14 .description").getItem(localStorage.text);
-$("#15 .description").getItem(localStorage.text);
-$("16 .description").getItem(localStorage.text);
-$("17 .description").getItem(localStorage.text);
-$("18 .description").getItem(localStorage.text);
-$("19 .description").getItem(localStorage.text);
-$("20 .description").getItem(localStorage.text);
+$("#8 .description").val(localStorage.getItem("8"));
+$("#9 .description").val(localStorage.getItem("9"));
+$("#10 .description").val(localStorage.getItem("10"));
+$("#11 .description").val(localStorage.getItem("11"));
+$("#12 .description").val(localStorage.getItem("12"));
+$("#13 .description").val(localStorage.getItem("13"));
+$("#14 .description").val(localStorage.getItem("14"));
+$("#15 .description").val(localStorage.getItem("15"));
+$("#16 .description").val(localStorage.getItem("16"));
+$("#17 .description").val(localStorage.getItem("17"));
+$("#18 .description").val(localStorage.getItem("18"));
+$("#19 .description").val(localStorage.getItem("19"));
+$("#20 .description").val(localStorage.getItem("20"));
 
 keepTime();
